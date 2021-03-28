@@ -2,12 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>Herbs Technology</Company>
+    <Authors>LT SITHOLE</Authors>
+    <Description>GET started with Firebase Database and Storage intergration  in xamarin forms.Intergrate firebase into your application using our ready-made Library.</Description>
+    <PackageIcon>HtechLogo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>Firebase,database,xamarin forms,xamarin</PackageTags>
+    <NeutralLanguage>aa-DJ</NeutralLanguage>
+    <Copyright>Herbs Technology</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FirebaseAuthentication.net" Version="3.4.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
     <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\HtechLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

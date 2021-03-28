@@ -12,8 +12,8 @@ namespace Xamarin.Forms.Database.Models
     /// <summary>
     /// class to manage storage
     /// </summary>
-    /// <typeparam name="T">type of Objet</typeparam>
-    public class Storage<T>
+
+    public class Storage
     {
         /// <summary>
         /// Hold Table Names

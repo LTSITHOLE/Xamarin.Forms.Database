@@ -1,5 +1,5 @@
 # Xamarin.Forms.Database
-GET started with Firebase Database,Authentication and Storage intergration  in xamarin forms.Intergrate firebase into your application using our ready-made Library.
+GET started with Firebase Database,Authentication and Storage intergration  in xamarin forms.Intergrate firebase into your application using our ready-to-use Library.
 
 # Getting Started
 Make sure you include namespace. 

@@ -42,7 +42,10 @@ Use Auth provider below
   
 Global.GlobalInstance.AuthProvider
 
+  
+# License 
 
 MIT License.
+  
 Copyrights@ 2021 Herbs Technology
 

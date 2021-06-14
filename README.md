@@ -12,11 +12,11 @@ Get Authentication/web key, storage url and Database url from firebase console.
 ## Step 2
 Initialize Keys and URL’s, you can only configure service you want to use.
 
-Global.ServerConfiguration.FirebasebaseDatabaseURL="Your Firebase Database URL";
+ServerConfiguration.FirebasebaseDatabaseURL="Your Firebase Database URL";
 
-Global.ServerConfiguration.FirebasebaseStorageURL="Your Firebase Database URL";
+ServerConfiguration.FirebasebaseStorageURL="Your Firebase Database URL";
 
-Global.ServerConfiguration.FirebasebaseAuthKey="Web Key from project settings in firebase console";
+ServerConfiguration.FirebasebaseAuthKey="Web Key from project settings in firebase console";
 
 
 ## Step 3
@@ -40,7 +40,7 @@ var db=new Storage("Products");
 Make sure you enable authentication method you want to use from firebase console.
 Use Auth provider below 
   
-Global.GlobalInstance.AuthProvider
+GlobalInstance.AuthProvider
 
   
 # License 

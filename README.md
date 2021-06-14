@@ -4,7 +4,7 @@ GET started with Firebase Database,Authentication and Storage intergration  in x
 # Getting Started
 Make sure you include namespace. 
 
-using Xamarin.forms.Database
+using Xamarin.Forms.Database.Global;
 
 ## Step 1
 Get Authentication/web key, storage url and Database url from firebase console.
@@ -47,5 +47,5 @@ Global.GlobalInstance.AuthProvider
 
 MIT License.
   
-Copyrights@ 2021 Herbs Technology
+Copyrights@ 2021 LT SITHOLE
 
